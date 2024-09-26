@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+
+
+}
+
+body {
+    background-color: #1E2A38;
+    color: #D0D0D0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #1E2A38;
+}
+
+.logo {
+    color: #FF6F3F;
+    font-size: 24px;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #D0D0D0;
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url('cnc-machine.jpg') ;
+    background-size: cover;
+    background-position: bottom; 
+    background-repeat: no-repeat; 
+    background-blend-mode: darken;
+    padding: 100px 20px;
+    text-align: center;
+    color: #FFF;
+    background-color: rgba(0, 0, 0, 0.6);
+
+
+}
+
+h1, h2 {
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: bold;
+}
+
+.hero h1 {
+    font-size: 32px;
+
+
+}
+
+.hero button {
+    background-color: #FF6F3F;
+    color: #FFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.services {
+    background-color: #3A3A3A;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #FFF;
+    font-size: 28px;
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+
+}
+
+.card {
+    background-color: #1E2A38;
+    padding: 20px;
+    color: #FFF;
+    width: 30%;
+    
+    background-image: url('cards.webp') ;
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-blend-mode: multiply;
+}
+
+.contact {
+    background-color: #1E2A38;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 28px;
+    color: #FFF;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact input, .contact textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #3A3A3A;
+    color: #FFF;
+    border: none;
+}
+
+.contact button {
+    background-color: #FF6F3F;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #1E2A38;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    color: #D0D0D0;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+footer ul li {
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #D0D0D0;
+    text-decoration: none;
+}
