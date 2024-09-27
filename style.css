@@ -4,13 +4,14 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
-
-
+    max-width: 1200px;
+    margin: auto;    
 }
 
 body {
     background-color: #1E2A38;
     color: #D0D0D0;
+    max-width: 1024;
 }
 
 header {
